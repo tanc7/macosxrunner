@@ -54,3 +54,8 @@ tcsh
 
 # Compile the object file
 o64-clang -target x86_64-apple-macos12     -isysroot ./target/SDK/MacOSX13.3.sdk     -c start.s -o start.o
+
+# Obfuscating with Tigress
+
+ 2059  export TIGRESS_HOME=/home/birb/Documents/tigress/tigress/3.1
+ 2066  export PATH=$TIGRESS_HOME:$PATH
